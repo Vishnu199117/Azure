@@ -2,11 +2,9 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "adminUsername": {
-      "value": "Allscripts"
-    },
+    "adminUsername": {"value": "Allscripts"},
     "adminPassword": {
-      "value": "allscripts#1"
+      "value": "Allscripts#1"
     },
     "dnsLabelPrefix": {
       "value": "newdnssystem"
