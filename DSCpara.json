@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "newstore"
+    },
+    "storageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "vmName": {
+      "value": "Allscripts"
+    },
+    "vmSize": {
+      "value": "Standard_A2"
+    },
+    "imageSKU": {
+      "value": "2012-R2-Datacenter"
+    },
+    "adminUsername": {
+      "value": "Allscripts"
+    },
+    "adminPassword": {
+      "value": "Allscripts#1"
+    },
+    "modulesUrl": {
+      "value": "https://github.com/Azure/azure-quickstart-templates/blob/master/dsc-extension-iis-server-windows-vm/ContosoWebsite.ps1.zip"
+    },
+    "configurationFunction": {
+      "value": "ContosoWebsite.ps1\\ContosoWebsite"
+    }
+  }
+}
