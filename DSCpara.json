@@ -24,7 +24,7 @@
       "value": "Allscripts#1"
     },
     "modulesUrl": {
-      "value": "https://github.com/Azure/azure-quickstart-templates/blob/master/dsc-extension-iis-server-windows-vm/ContosoWebsite.ps1.zip"
+      "value": "https://github.com/Vishnu199117/Azure/blob/gh-pages/ContosoWebsite.ps1.zip"
     },
     "configurationFunction": {
       "value": "ContosoWebsite.ps1\\ContosoWebsite"
